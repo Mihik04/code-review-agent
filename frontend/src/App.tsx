@@ -3,7 +3,7 @@ import CodeTab from "./components/CodeTab";
 import PRTab from "./components/PRTab";
 import ResultCard from "./components/ResultCard";
 
-const API = "http://localhost:8000/api";
+const API = process.env.REACT_APP_API_URL || "http://localhost:8000/api";
 
 export default function App() {
   const [tab, setTab] = useState<"code" | "pr">("code");
