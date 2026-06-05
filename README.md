@@ -1,11 +1,10 @@
 # Code Review Agent
 
-An AI-powered code review platform that reviews pasted code and GitHub Pull Request diffs against software engineering standards. The system uses a FastAPI backend, Groq LLM API, GitHub API integration, and a React + TypeScript frontend to return structured review feedback with score, severity, category, issue explanation, and actionable fixes.
+An AI-powered code review platform that reviews pasted code and GitHub Pull Request diffs against software engineering standards. The system uses a FastAPI backend, Groq LLM API, and a React + TypeScript frontend to return structured review feedback with score, severity, category, issue explanation, and actionable fixes.
 
 ## Live Deployment
 
-- Frontend: Add your deployed frontend link here
-- Backend API: Add your deployed backend API link here
+- Deployed Page: https://code-review-agent-two.vercel.app/
 - GitHub Repository: https://github.com/Mihik04/code-review-agent
 
 ## Features
