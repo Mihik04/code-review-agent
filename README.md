@@ -39,52 +39,7 @@ An AI-powered code review platform that reviews pasted code and GitHub Pull Requ
 - Uvicorn
 - python-dotenv
 
-## Project Structure
 
-```text
-code-review-agent/
-│
-├── backend/
-│   ├── main.py
-│   ├── requirements.txt
-│   ├── runtime.txt
-│   ├── .env
-│   │
-│   ├── models/
-│   │   ├── __init__.py
-│   │   └── schemas.py
-│   │
-│   ├── routers/
-│   │   ├── __init__.py
-│   │   └── review.py
-│   │
-│   └── services/
-│       ├── __init__.py
-│       ├── gemini.py
-│       └── github.py
-│
-├── frontend/
-│   ├── package.json
-│   ├── tailwind.config.js
-│   ├── postcss.config.js
-│   ├── tsconfig.json
-│   │
-│   ├── public/
-│   │   └── index.html
-│   │
-│   └── src/
-│       ├── App.tsx
-│       ├── App.css
-│       ├── index.tsx
-│       ├── index.css
-│       │
-│       └── components/
-│           ├── CodeTab.tsx
-│           ├── PRTab.tsx
-│           └── ResultCard.tsx
-│
-└── .gitignore
-```
 
 > Note: The backend service file is named `gemini.py`, but the current implementation uses the Groq SDK and the `llama-3.3-70b-versatile` model.
 
